@@ -96,7 +96,7 @@ public class CLL {
         if (index == size - 1) {
             return removeLast();
         }
-        Node previous= get(index-1);
+        Node previous = get(index - 1);
         int val = previous.next.value;
         previous.next = previous.next.next;
         return val;
@@ -110,10 +110,24 @@ public class CLL {
         return node;
     }
 
-    public  Node getNodeByValue(int val){
+    public void insertUsingRecursion(int val, int index) {
+        head = insertRec(val, index, head);
+    }
+
+    private Node insertRec(int val, int index, Node node) {
+        if (index == 0) {
+            Node temp = new Node(val, node);
+            size++;
+            return temp;
+        }
+        node.next = insertRec(val, index--, node.next);
+        return node;
+    }
+
+    public Node getNodeByValue(int val) {
         Node node = head;
-        while (node!=null){
-            if(node.value==val){
+        while (node != null) {
+            if (node.value == val) {
                 System.out.println(node.value);
                 return node;
 
@@ -123,6 +137,7 @@ public class CLL {
 
         return null;
     }
+
     public void display() {
         Node temp = head;
         while (temp != null) {
@@ -132,6 +147,24 @@ public class CLL {
         System.out.print("END");
     }
 
+    //recursive
+    private void reverse(Node node) {
+        if (node == tail) {
+            head = tail;
+            return;
+        }
+        reverse(node.next);
+        //coming out of recursive
+
+        tail.next = node;
+        tail = node;
+        tail.next = null;
+
+    }
+
+    //In place reversal of LinkedList
+
+
     public static void main(String[] args) {
         CLL list = new CLL();
         list.insertFirst(3);
@@ -139,21 +172,23 @@ public class CLL {
         list.insertFirst(8);
         list.insertFirst(17);
         list.insertLast(99);
-        list.insertAtParticular(100, 3);
-        list.display();
-        System.out.println();
-        list.deleteFirst();
-        list.display();
-        System.out.println();
-        System.out.println(list.removeLast());
-        list.display();
-        System.out.println();
-        System.out.println(list.deleteAtParticular(2));
+//        list.insertAtParticular(100, 3);
+//        list.display();
+//        System.out.println();
+//        list.deleteFirst();
+//        list.display();
+//        System.out.println();
+//        System.out.println(list.removeLast());
+//        list.display();
+//        System.out.println();
+//        System.out.println(list.deleteAtParticular(2));
+//
+//        list.display();
+//        System.out.println();
+//        System.out.println(list.getNodeByValue(8));
 
+        list.insertUsingRecursion(88, 2);
         list.display();
-        System.out.println();
-        System.out.println(list.getNodeByValue(8));
-
     }
 
 
