@@ -10,7 +10,7 @@ public class MajorityElementII {
 //    Output: [3]
 //Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times
 
-
+//There can be majority element or there may be not
     public static List<Integer> majorityElement(int[] nums) {
         int candidate1 = -1;
         int candidate2 = -1;

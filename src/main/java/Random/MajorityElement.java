@@ -1,5 +1,5 @@
 package Random;
-
+//There will always be majority  element
 public class MajorityElement {
     public int majorityElement(int[] nums) {
 
