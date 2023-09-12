@@ -5,7 +5,7 @@ import java.util.*;
 public class ThreeSum {
     //    Time Complexity : O(N^2)
 //
-//    Space Complexity : O(1) bacuse we are returning result so ignoring res// or o(m)   // k is the no.of triplets
+//    Space Complexity : O(1) because we are returning result so ignoring res// or o(m)   // k is the no.of triplets
     public List<List<Integer>> threeSum(int[] num) {
         Arrays.sort(num);
 

@@ -26,7 +26,7 @@ public class LongestSubArrayWithZeroSum {
     //if  submission is not 0 we will check if does not exist submission which is key we will simply put it with index as val thats to maintain prefix sum
     //if submission exist in hashmap which means there is previous subarray that makes the same submission value
     //which means there must be some elements in b.w both that makes 0 becuase both got the same submission value at different index
-    //so in b.w both index there must be all the  elements that makes 0
+    //so in b.w both index there must be all the  elements that makes 0 to find length(currentIndex - previous submission index of same sum)
     static int subArrayOptimize(int[] arr) {
         int submission = 0;
         int max = 0;

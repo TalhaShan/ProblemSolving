@@ -49,6 +49,7 @@ public class LongestConsecutiveSequenceInAnArray {
            if(!numSet.contains(num-1)){   // if there is some element exist it means current element
                                           // is the part of the chain so we will ignore
                                             //instead of that we will find start of the chain so all elemnts will be covered int that while
+               // for example start count from 1,2,3,4,5 instead of 2,3,4 or 3,4,5
 
                int currentNum = num;
                int currentStreak = 1;
