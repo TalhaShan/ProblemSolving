@@ -41,3 +41,5 @@ U
 %src/main/java/SdeSheet/BuyStocks.java,5\f\5f6277e8c43e8d0285b1cdc60a9fce281b8ac3b3
 X
 (src/main/java/SdeSheet/ReverseVowel.java,8\2\823e03ff9254eee948bf4b8f33709c466c942d73
+[
++src/main/java/SdeSheet/TestBinarySonar.java,1\0\10702a06b27c2c07c59f5c8a8df029e188327dc9

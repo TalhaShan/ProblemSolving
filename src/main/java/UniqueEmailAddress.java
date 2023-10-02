@@ -29,7 +29,6 @@ public class UniqueEmailAddress {
         System.out.println(numUniqueEmails(new String[]{"test.email+alex@leetcode.com","test.email.leet+alex@code.com"}));
         //testemail@leetcode.com
         //testemailleet@code.com
-
             //testemailleetcode.com
 
     }
