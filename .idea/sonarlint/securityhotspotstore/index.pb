@@ -43,3 +43,11 @@ X
 (src/main/java/SdeSheet/ReverseVowel.java,8\2\823e03ff9254eee948bf4b8f33709c466c942d73
 [
 +src/main/java/SdeSheet/TestBinarySonar.java,1\0\10702a06b27c2c07c59f5c8a8df029e188327dc9
+U
+%src/main/java/UniqueEmailAddress.java,9\2\923c73bf4ea1f5ea0865f7a51036af8a673b7b0c
+^
+.src/main/java/Strings/RemoveColoredPieces.java,a\0\a0425729442ded33e08da79579e77af4229ce8a3
+U
+%src/main/java/Recursion/Subset2n.java,1\4\14b9a8bc8a26caf7b9c659f9e529ff0eceadf25a
+Y
+)src/main/java/Strings/RomanToInteger.java,b\8\b835d5096234160feea62a1bcfff911283943200
