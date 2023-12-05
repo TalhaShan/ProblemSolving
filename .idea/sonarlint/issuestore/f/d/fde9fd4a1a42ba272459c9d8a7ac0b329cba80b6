@@ -1,0 +1,10 @@
+
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ĞÉı¡ûÿÿÿÿ8´Ò·ÕÃ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀîéÉÿÿÿÿÿ8·Ò·ÕÃ1
+8
+java:S3626"Remove this redundant jump.(ÉŠ©ƒ8ùÒ·ÕÃ1
+^
+java:S1126"AReplace this if-then-else statement by a single return statement.(÷¹™†8ıÒ·ÕÃ1
+^
+java:S1126-"AReplace this if-then-else statement by a single return statement.(‹€‚ú8ÿÒ·ÕÃ1
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(«Ü£ğÿÿÿÿÿ8ŠÓ·ÕÃ1
