@@ -1,10 +1,9 @@
-package Concurrency;
+package DSAShardaAman;
 
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-public class Basics {
+public class CompletableFuture {
 
     //Using CompletableFuture as a Simple Future
 //        First, the CompletableFuture class implements the Future interface so that we can use it as a Future implementation but with additional completion logic.
@@ -14,7 +13,7 @@ public class Basics {
 
 
     public static Future<String> calculateAsync() throws InterruptedException {
-        CompletableFuture<String> completableFuture = new CompletableFuture<>();
+        java.util.concurrent.CompletableFuture<String> completableFuture = new java.util.concurrent.CompletableFuture<>();
 
         Executors.newCachedThreadPool().submit(() -> {
             Thread.sleep(500);
