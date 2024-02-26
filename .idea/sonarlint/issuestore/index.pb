@@ -91,3 +91,9 @@ g
 7src/main/java/DSAShardaAman/RepeatAndMissingNumber.java,6\9\6925f41a59975b0c54dae97b151842ac5a0d8870
 e
 5src/main/java/DSAShardaAman/SearchInRotateSorted.java,9\5\95e6e80266127d3eecb069f7157946f78266fc83
+f
+6src/main/java/DSAShardaAman/ChocolateDistribution.java,d\4\d4625e55a498792538a0ef01e0a89f0a0dce27fd
+^
+.src/main/java/DSAShardaAman/ValidAnagrams.java,5\9\594ac00873e499cbbcb2e9836b070e551433404d
+b
+2src/main/java/DSAShardaAman/CompletableFuture.java,e\6\e64be9727d1adc3d271be9bc5b69ed30c3e9255e
