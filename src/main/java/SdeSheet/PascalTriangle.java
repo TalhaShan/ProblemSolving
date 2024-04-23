@@ -3,7 +3,8 @@ package SdeSheet;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PascalTriangle {
+public class
+PascalTriangle {
     public List<List<Integer>> generate(int numRows) {
 
         List<List<Integer>> triangle = new ArrayList<>();
