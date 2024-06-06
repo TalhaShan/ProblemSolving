@@ -1,0 +1,14 @@
+
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÇ"
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½…ô¦
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹—Íñûÿÿÿÿ
+—
+java:S1186I"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×•œ²
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(­åõÞýÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(×•œ²
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(ú½ê¢
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+Q
+java:S1144"6Remove this unused private "printUseRecursion" method.(£Îœÿþÿÿÿÿ
