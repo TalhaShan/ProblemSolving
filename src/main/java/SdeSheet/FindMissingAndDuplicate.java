@@ -40,7 +40,7 @@ public class FindMissingAndDuplicate {
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
 
-            int curr =  (arr[i]);
+            int curr =  Math.abs(arr[i]);
             if (arr[curr-1] < 0) { //as we are accessing here where should element be thats why absoulte value
                 //find duplicate
 

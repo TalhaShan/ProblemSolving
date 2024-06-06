@@ -1,4 +1,4 @@
-package STRIVER_SHEET;
+package STRIVER_SHEET.Arrays;
 
 public class SetMatrixZero {
     static void markRow(int[][] matrix, int n, int m, int i) {

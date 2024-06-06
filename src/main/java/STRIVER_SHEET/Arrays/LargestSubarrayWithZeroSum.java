@@ -1,4 +1,4 @@
-package STRIVER_SHEET;
+package STRIVER_SHEET.Arrays;
 
 import java.util.HashMap;
 

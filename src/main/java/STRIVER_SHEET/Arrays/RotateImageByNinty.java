@@ -1,4 +1,4 @@
-package STRIVER_SHEET;
+package STRIVER_SHEET.Arrays;
 
 public class RotateImageByNinty {
     static void rotate(int[][] matrix) {
