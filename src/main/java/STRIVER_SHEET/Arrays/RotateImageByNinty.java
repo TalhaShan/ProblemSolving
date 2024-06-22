@@ -19,5 +19,17 @@ public class RotateImageByNinty {
             }
         }
     }
+
+    static int[][] rotateBruteForce(int[][] matrix) {
+        //Space n*n
+        int n = matrix.length;
+        int rotated[][] = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                rotated[j][n - i - 1] = matrix[i][j];
+            }
+        }
+        return rotated;
+    }
 }
 

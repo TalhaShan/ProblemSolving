@@ -1,0 +1,4 @@
+#Brute Force
+1. Generate all permutation N!
+2. Linear SEARCH FOR GIVEN ORDER
+3. After finding return the next one if its last it self fall back to default ascending order.
