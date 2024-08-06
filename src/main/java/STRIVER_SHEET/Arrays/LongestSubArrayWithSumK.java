@@ -92,8 +92,10 @@ public class LongestSubArrayWithSumK {
             if (!preSumMap.containsKey(sum)) {
                 preSumMap.put(sum, i);
 
-                //To handle case like [2,0,0,3],, if we don't put this we will get 1 length however correct length
-                //is 3 // 0,0,3
+                //To handle case like [2,0,0,3],, if we don't put this we will get 1 length however correct length is 3
+                 // 0,0,3
+                //if we keep updated hashmap it will (sum,index) == (2,2)
+                //thats wrong we need to keep longest so we will stay  at  (sum,index) = (2,0)
             }
         }
 
@@ -101,7 +103,7 @@ public class LongestSubArrayWithSumK {
     } //O(N) or O(N*logN) depending on which map data structure we are using, where N = size of the array. space O(N)
 
 
-    //The most optimal with tow pointer appraoch only for negative numbers
+    //The most optimal with tow pointer appraoch only for positive numbers
     public static int sum4(int[] arr, long target) {
         int n = arr.length; // size of the array.
 
@@ -110,7 +112,8 @@ public class LongestSubArrayWithSumK {
         int maxLen = 0;
         while (right < n) {
             // if sum > k, reduce the subarray from left
-            // until sum becomes less or equal to k:
+            // until sum becomes less or equal to k:4
+            //off course also need to check left should be <= right
             while (left <= right && sum > target) {
                 sum -= arr[left];
                 left++;
@@ -122,7 +125,7 @@ public class LongestSubArrayWithSumK {
             }
 
             // Move forward thw right pointer:
-            right++;
+            right++; //becoz alreaday startign from sum = arr[0];
             if (right < n) sum += arr[right];
         }
 
