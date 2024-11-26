@@ -1,4 +1,4 @@
-package STRIVER_SHEET.GreedyAlgorithms;
+package STRIVER_SHEET.Arrays.GreedyAlgorithms;
 
 import java.util.Arrays;
 
