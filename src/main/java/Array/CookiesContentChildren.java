@@ -57,3 +57,6 @@ class CookiesContentChildren {
         System.out.println(findContentChildren(new int[]{1, 2,3}, new int[]{1, 1}));
     }
 }
+
+// 2^n space 
+// 2^n+ 2^nlog(2^n)  Time make and sort
