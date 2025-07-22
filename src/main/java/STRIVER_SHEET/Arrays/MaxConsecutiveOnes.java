@@ -1,18 +1,17 @@
-package STRIVER_SHEET.Arrays;
+package com.demo.project;
 
 public class MaxConsecutiveOnes {
-    static int findMaxConsecutiveOnes(int nums[]) {
-        int cnt = 0;
-        int maxi = 0;
+    public int findMaxConsecutiveOnes(int[] nums) {
+        int count = 0;
+        int max_count = 0;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == 1) {
-                cnt++;
+                count++;
+                max_count = Math.max(count, max_count);
             } else {
-                cnt = 0;
+                count = 0;
             }
-
-            maxi = Math.max(maxi, cnt);
         }
-        return maxi;
+        return max_count;
     }
 }
